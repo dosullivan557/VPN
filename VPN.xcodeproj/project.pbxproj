@@ -11,6 +11,7 @@
 		DE253B172073F4C500F68C73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE253B162073F4C500F68C73 /* ViewController.swift */; };
 		DE253B192073F4C500F68C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE253B182073F4C500F68C73 /* Assets.xcassets */; };
 		DE253B1C2073F4C500F68C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE253B1A2073F4C500F68C73 /* Main.storyboard */; };
+		DE253B272073FB8B00F68C73 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE253B262073FB8B00F68C73 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DE253B1B2073F4C500F68C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE253B1D2073F4C500F68C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE253B1E2073F4C500F68C73 /* VPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VPN.entitlements; sourceTree = "<group>"; };
+		DE253B262073FB8B00F68C73 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 		DE253B082073F4C500F68C73 = {
 			isa = PBXGroup;
 			children = (
+				DE253B262073FB8B00F68C73 /* Extensions.swift */,
 				DE253B132073F4C500F68C73 /* VPN */,
 				DE253B122073F4C500F68C73 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE253B172073F4C500F68C73 /* ViewController.swift in Sources */,
+				DE253B272073FB8B00F68C73 /* Extensions.swift in Sources */,
 				DE253B152073F4C500F68C73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
